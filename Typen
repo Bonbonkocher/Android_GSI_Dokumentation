@@ -1,8 +1,29 @@
+###
+Das sind alles von mir gesamelte infomationen aus dem internet.
+sie dienen nur zur infos und erklärungen.
+ich über nehme keine gewährleistung für fehlende oder zur richtigkeit.
+zur verbesserung vorschläge, bin ich dankbar.
+###
+
 Informationen darüber, um welchen GSI-Typ es sich handelt
+z.B. {
+ColtOS_A13-arm64-bgS-slim_20240124.img.xz
+PE-Plus_A13-arm64-bgS-vndklite_20240629.img.xz
+crDroid-8.9-arm64_bgN-Unofficial.img.xz
+system-arm64-ab-20181227.img.xz
+}
+wie kommt der name zustande
+<NAMEOS>_<ANDROID>-<VERSION>-<ARCH>-<TYP>-<SLIM>-<VNDKLITE>_<DATUM>.img.xz
 
-<ARCH>_xyZ
+<NAMEOS> Name des Systems z.B. PixelOS, LineageOS, AOSP usw.
+<ANDROID> Das ist die verion vom Android z.B. A13 = Android 13
+<VERSION> Version eines .img vom jeweilige SystemOS
 
-<ARCH> kann entweder arm, a64 oder arm64 sein
+
+<ARCH> = kann entweder arm, a64 oder arm64 sein
+
+<TYP> ist entweder "a oder b"+"v, o, g oder f"+"N oder S"
+
 x kann entweder a oder b sein
 y kann entweder v, o, g oder f sein
 Z kann entweder N oder S
@@ -15,7 +36,21 @@ o = gapps-go
 v = vanilla (keine Gapps enthalten)
 f = floss (kostenlose & Open Source Apps statt Gapps)
 
-N = no superuser
-S = superuser included
+N = Ohne Superuser
+S = Superuser inklusive
 
-so in most common example "arm64_avN" is ARM64 A-only vanilla with no superuser
+Im häufigsten Beispiel ist "arm64_avN" ARM64 A-only Vanilla ohne Superuser
+
+<SLIM> = ist nict immer im namnen enthalten
+Der Begriff „Slim“ bezieht sich normalerweise auf eine Variante des ROM, die durch Entfernen bestimmter Funktionen oder vorinstallierter Anwendungen verkleinert wurde.
+Dies kann für Benutzer nützlich sein, die ein leichteres ROM wünschen, um Speicherplatz zu sparen, oder für Geräte mit begrenzten Ressourcen.
+Eine „Slim“-Version eines ROM behält normalerweise die wesentlichen Funktionen bei, während der Platzbedarf des ROM minimiert wird.
+Auch hier hängen die spezifischen Funktionen und Apps, die in einer „Slim“-Version entfernt werden, von den Entscheidungen des ROM-Betreuers ab.
+
+<VNDKLITE> =
+
+<DATUM> = Datum angaben sind in ISO8601 formatiert
+ISO 8601 spezifiziert das Format YYYY-MM-DD.
+Die Datumsangabe ist eindeutig.
+ISO 8601 ist für den Computer leicht handhabbar.
+Wird eine Liste mit mehreren Daten auf normale Art, also buchstabenabhängig, sortiert, entsteht eine chronologisch geordnete Liste.
