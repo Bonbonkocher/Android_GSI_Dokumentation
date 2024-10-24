@@ -1,0 +1,21 @@
+Informationen darüber, um welchen GSI-Typ es sich handelt
+
+<ARCH>_xyZ
+
+<ARCH> kann entweder arm, a64 oder arm64 sein
+x kann entweder a oder b sein
+y kann entweder v, o, g oder f sein
+Z kann entweder N oder S
+
+b = a/b
+a = a-only
+
+g = gapps
+o = gapps-go
+v = vanilla (keine Gapps enthalten)
+f = floss (kostenlose & Open Source Apps statt Gapps)
+
+N = no superuser
+S = superuser included
+
+so in most common example "arm64_avN" is ARM64 A-only vanilla with no superuser
