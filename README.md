@@ -8,5 +8,14 @@ es dient nur zur auf klärung*
 
 1. [Treble Info](https://f-droid.org/de/packages/tk.hack5.treblecheck/) 
  - - Diese Applitikation erlaubt es dir, die Treble GSI-Anforderungen zu überprüfen und den korrekten GSI Typen für dein Gerät festzustellen.
+   - Hauptfunktionen:
+     - Überprüfen der Treble Unterstützung
+     - Überprüfen der Treble/VNDK-Version
+     - Überprüfen der Systemarchitektur
+     - Überprüfen des A-only oder A/B-Statusses
+     - Überprüfen von binder64
+     - Überprüfen von System-as-Root
+     - Benötigt keinen Rootzugriff
+     - Unterstützt das Dark Theme und MD3
 2. ADB und Fastboot
 3. 
